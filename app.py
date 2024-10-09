@@ -29,3 +29,11 @@ print(course.lower()) # conversion maj -> min
 print(course.find("y")) # position first "y"
 print(course.replace("for", '4')) # replace
 print("Python" in course)
+
+# Arithmetic Operators
+
+print (10%3)
+x = 10
+x = x + 3
+x *= 3
+print(x)
