@@ -20,3 +20,12 @@ first = float(input("First"))
 second = float(input("Second"))
 sum = first + second
 print("Sum" + str(sum))
+
+# Strings
+
+course = "Python for Beginners"
+print(course.upper()) # conversion min -> maj
+print(course.lower()) # conversion maj -> min
+print(course.find("y")) # position first "y"
+print(course.replace("for", '4')) # replace
+print("Python" in course)
