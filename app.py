@@ -5,7 +5,8 @@ first_name = 'Pierre'
 is_online = True
 print(age)
 
-# Exo variable
 
-patient = 'John Smith'
-age = 20
+# Most Replayed
+name = input('What is your name?')
+print("Hello" + name)
+
