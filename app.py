@@ -22,7 +22,6 @@ sum = first + second
 print("Sum" + str(sum))
 
 # Strings
-
 course = "Python for Beginners"
 print(course.upper()) # conversion min -> maj
 print(course.lower()) # conversion maj -> min
@@ -31,9 +30,15 @@ print(course.replace("for", '4')) # replace
 print("Python" in course)
 
 # Arithmetic Operators
-
 print (10%3)
 x = 10
 x = x + 3
 x *= 3
 print(x)
+
+# Logical Operator
+price_two = 25
+print(not price_two > 10 ) #not / or / and
+
+
+
