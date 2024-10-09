@@ -71,4 +71,12 @@ numbers.remove(4)
 print(1 in numbers)
 print(numbers)
 
+# For Loops
+numbers_two = [1,2,3,4,5]
+for item in numbers_two:
+    print(item)
 
+a = 0
+while a < len(numbers_two):
+    print(numbers[a])
+    a = a + 1
