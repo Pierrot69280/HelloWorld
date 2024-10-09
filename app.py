@@ -10,3 +10,13 @@ print(age)
 name = input('What is your name?')
 print("Hello" + name)
 
+#Types Conversion :
+birth_year = input('Enter your birth year?')
+age = 2024 - int(birth_year)
+print(age)
+
+#Exo
+first = float(input("First"))
+second = float(input("Second"))
+sum = first + second
+print("Sum" + str(sum))
