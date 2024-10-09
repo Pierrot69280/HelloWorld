@@ -54,8 +54,21 @@ else:
 print('Done')
 
 # While Loops
-
 i = 1
 while i <= 10:
     print(i * "*")
     i = i + 1
+
+#Lists
+names = ["John", "Bob", "Pierre", "Mary"]
+names[0] = "Jon"
+print(names[0:3])
+
+# Lists Methods
+numbers = [1,2,3,4,5]
+numbers.insert(0, -1)
+numbers.remove(4)
+print(1 in numbers)
+print(numbers)
+
+
