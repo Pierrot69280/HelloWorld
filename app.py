@@ -80,3 +80,8 @@ a = 0
 while a < len(numbers_two):
     print(numbers[a])
     a = a + 1
+
+# range function
+numbers_three = range(5, 10) # 9 exclus / (5, 7, 2) sauter 2 à la fois
+for number in numbers_three:
+    print(number)
