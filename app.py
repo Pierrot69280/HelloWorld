@@ -85,3 +85,7 @@ while a < len(numbers_two):
 numbers_three = range(5, 10) # 9 exclus / (5, 7, 2) sauter 2 à la fois
 for number in numbers_three:
     print(number)
+
+# Tuples
+
+numbers_four = (1,2,3,4,5,6,7,8,9) # Impossible de mofidier
