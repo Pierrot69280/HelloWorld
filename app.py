@@ -40,5 +40,16 @@ print(x)
 price_two = 25
 print(not price_two > 10 ) #not / or / and
 
+# if Statements
+temperature = 35
 
+if temperature > 30:
+    print("It's a hot day !")
+elif temperature > 20:
+    print("It's a nice day")
+elif temperature > 10:
+    print("It's a bit cold")
+else:
+    print("It's cold")
+print('Done')
 
